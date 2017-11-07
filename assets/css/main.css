@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+header {
+	text-align: center;
+	background: #2C1832;
+	margin: 0;
+	padding: 8px 0;
+	border: none;
+	width: 100%;
+	display: block;
+	position: fixed;
+	z-index: 1000;
+	height: 46px;
+}
+
+#logo {
+	color: #1DA1F2;
+}
+
+aside {
+	/*outline: 1px solid white;*/
+	margin: 0 1% 0 5%;
+	padding: 60px 0;
+	width: 288px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#profile {
+	height: 213px;
+	background: #1A0F1F;
+	margin-right: 1%;
+	width: 100%;
+	color: #fff;
+	padding: 20px;
+	vertical-align: top;
+	border: 2px solid #000;
+}
+
+#user-img {
+	border-radius: 70px;
+	height: 50%;
+}
+
+.user {
+	float: right;
+}
+
+#fullname, #username {
+	margin: 0;
+}
+
+.main {
+	/*outline: 1px solid magenta;*/
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	padding-top: 60px;
+	vertical-align: top;
+}
+
+#tweet-box {
+	padding: 20px 20px 0 80px;
+	height: auto;
+	min-height: 105px;
+	background: #453C65;
+	margin: 0;
+	width: 100%;
+	border: 2px solid #000;
+	display: block;
+	position: relative;	
+}
+
+#tweet {
+	display: block;
+	min-height: 36px;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	word-wrap: break-word;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 8px;
+	padding: 5px;
+	position: relative;
+	/*margin-bottom: 10px;*/
+}
+
+#btn-box {
+	/*outline: 1px solid yellow;*/
+	display: block;
+	height: 50px;
+	padding: 8px 0;
+}
+
+#char-count {
+	color: #fff;
+	font-size: 20px;
+}
+
+#btn {
+	display: inline-block;
+	background-color: #19CF86;
+	width: 88px;
+	height: 35px;
+	border-radius: 70px;
+	border-color: transparent;
+	margin: 0;
+	color: #fff;
+	float: right;
+	user-select: none;
+	position: relative;
+}
+
+.feed {
+	/*outline: 1px solid deeppink;*/
+	margin: 0;
+	width: 100%;
+	height: auto;
+	color: #fff;
+}
